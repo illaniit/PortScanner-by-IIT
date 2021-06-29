@@ -1,0 +1,25 @@
+!!!!!!Recomendación poner en un archivo creado con un nano. CODE::
+#!/bin/python3
+print("Bienvenido a Port scan, creado por IIT")
+print ("Espero que está herramienta pueda ser de tu ayuda")
+print("La herramienta es un pelín lenta tarda 1 min aproximadamente en realizar el scan")
+
+import sys
+import socket
+
+objetivo  = socket.gethostbyname(input("Introduzca la dirección IP: "))
+
+print("En proceso de scan del objetivo: " + objetivo )
+
+try:
+    for port in range(1,150) :
+        s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+        socket.setdefaulttimeout(1)
+        Resultado = s.connect_ex((objetivo, port))
+        if Resultado == 0:
+            print("El Puerto {} Está Abierto.".format(port)) 
+        s.close() 
+except:
+        print("\n Saliendo...")
+        sys.exit(0)           
+
