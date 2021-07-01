@@ -1,3 +1,8 @@
 # PortScanner-by-IIT
-Hiiii this is the Spanish for Linux and win 10 and in the near future the english version of PortScan my new tool on which you can see what ports are Open only with the IP adress.
-Please do not copy this tool and put it with you're name, that woun't be ethical.
+PortScanner es una herramienta programada en Python3.
+Como su nombre indica esta herramienta escanea los primeros 150 puertos de red del objetivo.
+¿Cómo funciona?:
+Es muy sencillo, sólo tienes que copiar el código de la herramienta y pegarlo en una herramienta de código, en este caso recomiendo Visual studio code.
+Yo como creador de la herramienta me siento muy orgulloso de que se la de uso.
+
+Atentamente el creador IIT0.
