@@ -1,0 +1,8 @@
+Acerca de la herramienta: (Términos y condiciones de la herramienta)
+El creador IIT no se hace responsable de los usos que se les den a esta herramienta.
+Esta fue creada para el bien, no para usos delictivos. De hecho nuesta intención es que se pueda usar para uso de seguridad personal y para realizar máquinas de pentesting, no para realizar prácticas ilegales.
+Hay compatibilidad tanto con Windows como en todas las versiones de Linux.
+Quiero aprovechar este espacio para agradecer a mi colaborador Silimotion sin el no habríamos conseguido la versión estable en Linux, también por su esfuerzo y dedicación con esta herramienta. Sin él no hubiera salido de la versión 1.0.
+La herramienta ha sido diseñada en Python 3.
+En Futuras versiones...
+Queremos mejorar el tiempo de escaneo de puertos de la herramienta que actualmente está en 1,2 Minutos.
